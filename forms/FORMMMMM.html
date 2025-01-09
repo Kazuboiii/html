@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="UTF-8">
+    <title>FORM</title>
+</head>
+<body>
+    <h1>REGISTERATION FORM</h1>
+     <form>
+        <fieldset>
+        <legend style="color:aqua">PERSONAL DETAILS</legend>
+         <label> First Name </label><br>
+         <input type="text"><br>
+         <label> Last Name </label><br>
+         <input type="text"><br>
+         <br>
+         <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+            <p>Value: <span id="sliderValue">0</span></p>
+          </div><br>
+        <label for="Gender">Gender</label>
+        <select name="Gender" id="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select><br>
+        </fieldset>
+        <fieldset>
+         <legend style="color:cornflowerblue">LOGIN DETAIL</legend>
+         <label> Email Address </label><br>
+         <input type="email" class="form-control"><br>
+         <label> Password </label><br>
+         <input type="Password"><br>
+         <br>
+        </fieldset>
+        <fieldset>
+         <LEGEND style="color:red">COMPANY'S POLICIES</LEGEND>
+         <label> Did you read our 'Terms and Conditions'?</label><br>
+         <input type="radio" id="yes" name="Read"  value="YES">
+         <label for="yes"> YES </label><br>
+         <input type="radio" id="no" name="Read" value="NO">
+         <label for="no"> NO </label><br>
+         <br>
+        </fieldset>
+         <br>
+         <fieldset>
+         <legend style="color:blueviolet">YOUR REVIEW </legend><br>
+         <textarea name="message" rows="10" cols="30"></textarea><br>
+        </fieldset>
+         <input type="button" value="Submit">
+     </form>
+</body>
+</html>

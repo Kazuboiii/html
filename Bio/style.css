@@ -1,0 +1,51 @@
+body {
+    background-color: lightblue;
+    background-image:url(bro.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+h1 {
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: #8174A0;
+    font-weight: bold;
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    font-style:unset;
+    font-weight: bold;
+}
+.ul{
+    font-size: 20px;
+    font-weight: bold;
+}
+.li{
+    font-size: 20px;
+}
+.gap{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#img{
+    margin:auto;
+    margin-left: 35%;
+    width: 30%;
+    height:30%;
+    border-radius: 50%;
+}
+#gif{
+    margin-right:100px;
+    margin-left:450px;
+    width: 30%;
+    padding-top: 20px;
+}

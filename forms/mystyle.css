@@ -1,0 +1,11 @@
+body{
+    background-image:url(waves.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-weight: bold;
+    color:aquamarine
+}
+h1{
+    color:blanchedalmond;
+    text-align:center;
+}
